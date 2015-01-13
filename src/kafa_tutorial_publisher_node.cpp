@@ -6,7 +6,7 @@ int main(int argc, char **argv)
   ros::init(argc, argv, "kafa_tutorial_publisher_node");
   ros::NodeHandle nh;
 
-  ros::Publisher pub = nh.advertise<kafa_tutorial::kafa_tutorial_msg>("kafa_tutorial_msg", 100);
+  ros::Publisher pub = nh.advertise<kafa_tutorial::kafa_tutorial_msg>("kafa_tutorial_topic", 100);
 
   ros::Rate loop_rate(0.5);
 

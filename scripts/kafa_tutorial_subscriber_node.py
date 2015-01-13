@@ -8,7 +8,7 @@ def callback(data):
     
 def subscriber():
     rospy.init_node('kafa_tutorial_subscriber_node', anonymous=True)
-    rospy.Subscriber('kafa_tutorial_msg', Int32, callback)
+    rospy.Subscriber('kafa_tutorial_topic', Int32, callback)
     rospy.spin()
     
 if __name__ == '__main__':
