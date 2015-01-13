@@ -13,3 +13,7 @@
 ## Messages
 
 * /kafa_tutorial_msg
+
+```
+  int32 data
+```
