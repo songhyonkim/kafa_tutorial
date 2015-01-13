@@ -20,3 +20,4 @@
 
 ## Node graph
 
+![Image](img/rqt_graph.png?raw=true)
